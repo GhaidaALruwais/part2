@@ -33,6 +33,8 @@ function discountPrices(prices, discount) {
 
     if (!Array.isArray(prices) || typeof discount !== 'number') {
         return false;
+
+        
     }
 
     if(prices.length === 0){
